@@ -39,3 +39,6 @@ Instead of relying on heavy, slow, and fragile HTML scraping (like Selenium or d
 
 Once the application is running, you can access the Swagger UI documentation at:
 [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+
+P.S.
+o ensure maximum scraping speed and prevent IP blocking, the application fetches job summaries via a single API call. Detailed descriptions are omitted in this version to prioritize efficiency as per the technical requirements.
