@@ -13,7 +13,7 @@ This guide describes how to run the Techstars Jobs Scraper application locally. 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/vlcdck/scrapper
-   cd https://github.com/vlcdck/scrapper
+   cd scrapper
    ```
 
 2. **Start the application:**
