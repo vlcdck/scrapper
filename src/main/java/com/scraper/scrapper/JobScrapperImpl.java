@@ -34,12 +34,6 @@ public class JobScrapperImpl implements JobScraper {
     @Value("${app.scraper.batch-size:50}")
     private int batchSize;
 
-    @EventListener(ApplicationReadyEvent.class)
-    public void runOnStartupForTesting() {
-        log.info("--- TEST RUN ON STARTUP ---");
-        runScrapingProcess();
-    }
-
     @Override
     @Scheduled(cron = "${app.scraper.cron:0 0 3 * * *}")
     public void runScrapingProcess() {
